@@ -1,5 +1,27 @@
 {
   "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-purgecss": "^3.0.0",
     "sass": "^1.32.11"
-  }
+  },
+  "name": "SelenizeCSS",
+  "description": "",
+  "version": "1.0.0",
+  "main": "purgecss.config.js",
+  "dependencies": {},
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoezDavid/SelenizeCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoezDavid/SelenizeCSS/issues"
+  },
+  "homepage": "https://github.com/GoezDavid/SelenizeCSS#readme"
 }
